@@ -1,0 +1,12 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    "helpers:pinGitHubActionDigests",
+    ":gitSignOff"
+  ],
+  "timezone": "America/Toronto",
+  "enabledManagers": ["github-actions"],
+  "prHourlyLimit": 20,
+  "prConcurrentLimit": 10
+}
