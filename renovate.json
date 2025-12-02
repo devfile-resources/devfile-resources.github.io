@@ -8,5 +8,6 @@
   "timezone": "America/Toronto",
   "enabledManagers": ["github-actions"],
   "prHourlyLimit": 20,
-  "prConcurrentLimit": 10
+  "prConcurrentLimit": 10,
+  "labels": ["renovatebot"]
 }
